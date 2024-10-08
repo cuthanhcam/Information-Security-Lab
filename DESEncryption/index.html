@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body>
+        <div class="app">
+            <div class="app__container">
+                <h1 class="app__container-name">DATA ENCRYPTION STANDARD</h1>
+                <div class="app__container-header">
+                    <div class="app__container-header-name">
+                        <span>Input:</span>
+                        <span>Key:</span>
+                        <span>Output:</span>
+                    </div>
+                    <div class="app__container-header-text">
+                        <input id="input1" type="text">
+                        <input id="input2" type="text">
+                        <input id="input3" type="text">
+                    </div>
+                </div>
+            
+                <div class="app__container-tail">
+                    <button id="encipherBtn">Encipher</button>
+                    <button id="decipherBtn">Decipher</button>
+                    <button id="saveBtn">Save file</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+        <script src="base.js"></script>
+    </body>
+</html> 
