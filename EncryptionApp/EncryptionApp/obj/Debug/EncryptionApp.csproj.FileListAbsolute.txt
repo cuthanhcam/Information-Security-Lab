@@ -1,0 +1,14 @@
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\bin\Debug\EncryptionApp.exe.config
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\bin\Debug\EncryptionApp.exe
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\bin\Debug\EncryptionApp.pdb
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.csproj.AssemblyReference.cache
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\MainWindow.baml
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\MainWindow.g.cs
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\App.g.cs
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp_MarkupCompile.cache
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.g.resources
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.Properties.Resources.resources
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.csproj.GenerateResource.cache
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.csproj.CoreCompileInputs.cache
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.exe
+D:\SourceCode\VisualStudio\CSharp\EncryptionApp\EncryptionApp\obj\Debug\EncryptionApp.pdb

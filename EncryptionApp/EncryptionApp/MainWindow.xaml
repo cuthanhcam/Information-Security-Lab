@@ -1,0 +1,46 @@
+﻿<Window x:Class="EncryptionApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cù Thanh Cầm - Encryption App" Height="420" Width="620">
+    <Grid>
+        <!-- Grid Layout -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Username and Password -->
+        <Label Content="Username:" Margin="10,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Name="txtUsername" Width="510" Height="30" Margin="80,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Label Content="Password:" Margin="10,55,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox Name="txtPassword" Width="510" Height="30" Margin="80,55,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Key Management (Key + Toggle Show/Hide) -->
+        <Label Content="Key:" Margin="10,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox Name="txtKey" Width="400" Height="30" Margin="80,140,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Checkbox to toggle visibility of Key -->
+        <CheckBox Content="Hiển thị Key" Margin="490,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="ShowKey_Checked" Unchecked="ShowKey_Unchecked"/>
+
+        <!-- Plaintext Input -->
+        <Label Content="Plaintext:" Margin="10,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.RowSpan="2" Grid.Row="1"/>
+        <TextBox Name="txtPlaintext" Width="400" Height="60" Margin="80,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Grid.RowSpan="2" Grid.Row="1"/>
+
+        <!-- Ciphertext Output -->
+        <Label Content="Ciphertext:" Margin="10,90,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2"/>
+        <TextBox Name="txtCiphertext" Width="400" Height="60" Margin="80,90,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Grid.Row="2"/>
+
+        <!-- Buttons for Actions -->
+        <Button Content="Đăng Ký" Width="100" Height="30" Margin="490,95,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="RegisterUser_Click"/>
+        <Button Content="Đăng Nhập" Width="100" Height="30" Margin="80,95,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="LoginUser_Click"/>
+        <Button Content="Ký Tên" Width="100" Height="30" Margin="80,165,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="SignPlainText_Click" Grid.Row="2" Grid.RowSpan="3"/>
+        <Button Content="Hiển Thị" Width="100" Height="30" Margin="230,165,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ShowPlainText_Click" Grid.Row="2"/>
+        <Button Content="Mã Hoá" Width="100" Height="30" Margin="490,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="EncryptText_Click" Grid.RowSpan="2" Grid.Row="1"/>
+        <Button Content="Giải Mã" Width="100" Height="28" Margin="490,90,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="DecryptText_Click" Grid.Row="2"/>
+        <Button Content="Ghi File" Width="100" Height="30" Margin="380,165,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="SaveFile_Click" Grid.Row="2"/>
+    </Grid>
+</Window>

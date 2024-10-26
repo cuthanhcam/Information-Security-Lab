@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52180CB6-E301-47C3-829E-88B7D25B2A37}|EncryptionApp\\EncryptionApp.csproj|d:\\sourcecode\\visualstudio\\csharp\\encryptionapp\\encryptionapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52180CB6-E301-47C3-829E-88B7D25B2A37}|EncryptionApp\\EncryptionApp.csproj|solutionrelative:encryptionapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52180CB6-E301-47C3-829E-88B7D25B2A37}|EncryptionApp\\EncryptionApp.csproj|D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\encryptionapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52180CB6-E301-47C3-829E-88B7D25B2A37}|EncryptionApp\\EncryptionApp.csproj|solutionrelative:encryptionapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\EncryptionApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EncryptionApp\\MainWindow.xaml",
+              "ToolTip": "D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\EncryptionApp\\MainWindow.xaml",
+              "RelativeToolTip": "EncryptionApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T01:46:03.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\EncryptionApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EncryptionApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\SourceCode\\VisualStudio\\CSharp\\EncryptionApp\\EncryptionApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EncryptionApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:45:59.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
